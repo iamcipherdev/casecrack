@@ -43,7 +43,7 @@ export const CASES: GameCase[] = [
     emoji: "☕",
     difficulty: 1,
     timeEstimate: "10-15 min",
-    scene: "/scenes/case1-chai.jpg",
+    scene: "/casecrack/scenes/case1-chai.jpg",
     story:
       "Famous food vlogger Bunty Bhai (34) apne kitchen mein murgha paya gaya — subah 7 baje. Paas mein chai ka cup tha. Ghar mein 3 log thay.",
     victim: "Bunty Bhai, 34, food vlogger (2M followers)",
@@ -127,7 +127,7 @@ export const CASES: GameCase[] = [
     emoji: "📱",
     difficulty: 2,
     timeEstimate: "15-20 min",
-    scene: "/scenes/case2-iphone.jpg",
+    scene: "/casecrack/scenes/case2-iphone.jpg",
     story:
       "Ayesha ka iPhone 15 Pro Max university cafeteria ki table se gayab. Woh 2 minute ke liye chai lene gayi thi. Paas mein 3 classmates thay.",
     victim: "Ayesha (phone owner)",
@@ -211,7 +211,7 @@ export const CASES: GameCase[] = [
     emoji: "💎",
     difficulty: 3,
     timeEstimate: "20-25 min",
-    scene: "/scenes/case3-necklace.jpg",
+    scene: "/casecrack/scenes/case3-necklace.jpg",
     story:
       "Lahore ki shaadi mein dulhan ka Rs 15 lakh ka haar bridal room se gayab. Kamra andar se locked tha. 4 logon ko access tha.",
     victim: "Mahnoor (dulhan)",
@@ -306,7 +306,7 @@ export const CASES: GameCase[] = [
     emoji: "🧪",
     difficulty: 4,
     timeEstimate: "25-35 min",
-    scene: "/scenes/case4-lab.jpg",
+    scene: "/casecrack/scenes/case4-lab.jpg",
     story:
       "Professor Rashid (58) apni university lab mein murda paye gaye. Coffee cup mein zeher. Security camera us din 'kharab' tha. 3 log aaye thay.",
     victim: "Prof. Rashid, 58, chemistry professor",
@@ -390,7 +390,7 @@ export const CASES: GameCase[] = [
     emoji: "💰",
     difficulty: 5,
     timeEstimate: "30-45 min",
-    scene: "/scenes/case5-vault.jpg",
+    scene: "/casecrack/scenes/case5-vault.jpg",
     story:
       "Gulberg Lahore ke bank se raat ko Rs 2 crore cash gayab. Na zabardasti entry, na alarm baja. Sirf 3 logon ke paas vault codes hain. Inside job.",
     victim: "Private bank, Gulberg Lahore",
