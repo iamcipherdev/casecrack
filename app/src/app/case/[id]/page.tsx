@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { use, useState } from "react";
 import Link from "next/link";
 import { CASES } from "@/data/cases";
 import { notFound } from "next/navigation";
@@ -10,8 +10,9 @@ interface ChatMsg {
   text: string;
 }
 
-export default function CasePage({ params }: { params: { id: string } }) {
-  const found = CASES.find((c) => c.id === params.id);
+export default function CasePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
+  const found = CASES.find((c) => c.id === id);
   if (!found) notFound();
   const gameCase = found;
 
